@@ -8,7 +8,7 @@ export class ControleEditoraService {
 
   public editoras: Array<Editora> = [
     (new Editora(1,'editora Mais')),
-    (new Editora(2,'editora Veja')),
+    (new Editora(2,'editora FullStack')),
     (new Editora(3,'editora Estacio'))
   ]
 

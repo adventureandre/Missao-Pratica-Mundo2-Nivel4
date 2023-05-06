@@ -10,10 +10,10 @@ import {Router} from "@angular/router";
   templateUrl: './livro-dados.component.html',
   styleUrls: ['./livro-dados.component.css']
 })
+
 export class LivroDadosComponent implements OnInit{
   livro : Livro;
   autoresForm: string = '';
-
   public editoras:Array<Editora> = [];
 
 
@@ -24,7 +24,6 @@ export class LivroDadosComponent implements OnInit{
 
   ngOnInit() {
     this.editoras = this.servEditora.getEditoras();
-
     // console.log(this.editoras)
   }
 
@@ -33,7 +32,4 @@ export class LivroDadosComponent implements OnInit{
     this.servLivros.incluir(this.livro);
     this.router.navigateByUrl('/lista');
   };
-
-
-
 }

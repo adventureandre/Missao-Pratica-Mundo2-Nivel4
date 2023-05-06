@@ -6,10 +6,28 @@ import {Livro} from "./livro";
 })
 export class ControleLivrosService {
   public livros: Array<Livro> = [
-    {codigo:1,codEditora:1,titulo:"Livro 1",resumo:"resumo do livro1",autores:["andre","milena"]},
-    {codigo:2,codEditora:3,titulo:"Livro 2",resumo:"resumo do livro2",autores:["Sivaldo","eunice"]},
-    {codigo:3,codEditora:2,titulo:"Livro 3",resumo:"resumo do livro3",autores:["adriana","thiago"]}
-  ]
+    {
+      codigo: 1,
+      codEditora: 1,
+      titulo: "Dom Casmurro",
+      resumo: "Um clássico da literatura brasileira, este livro escrito por Machado de Assis narra a história de Bentinho e Capitu, explorando temas como amor, ciúme e traição.",
+      autores: ["Machado de Assis"]
+    },
+    {
+      codigo: 2,
+      codEditora: 2,
+      titulo: "Grande Sertão: Veredas",
+      resumo: "Considerada uma das maiores obras da literatura brasileira, este livro escrito por Guimarães Rosa é uma narrativa complexa que se passa no sertão mineiro, abordando temas como identidade, amor e violência.",
+      autores: ["João Guimarães Rosa"]
+    },
+    {
+      codigo: 3,
+      codEditora: 3,
+      titulo: "O Alquimista",
+      resumo: "Um dos livros mais conhecidos de Paulo Coelho, esta obra narra a jornada de Santiago, um jovem pastor, em busca de seu destino e dos segredos da vida.",
+      autores: ["Paulo Coelho"]
+    }
+  ];
 
   constructor() {
   }
