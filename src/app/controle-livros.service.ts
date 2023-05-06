@@ -6,9 +6,9 @@ import {Livro} from "./livro";
 })
 export class ControleLivrosService {
   public livros: Array<Livro> = [
-    (new Livro(1, 1, "senhos dos aneis", "Aventure em um mundo magico", ['andre', 'milena'])),
-    (new Livro(2, 2, "Vida de pobre", "historia de uma vida de pobre", ['sivaldo', 'andre'])),
-    (new Livro(3, 3, "Amumia", "Aventure é ação", ['Eunice', 'adriana']))
+    {codigo:1,codEditora:1,titulo:"Livro 1",resumo:"resumo do livro1",autores:["andre","milena"]},
+    {codigo:2,codEditora:3,titulo:"Livro 2",resumo:"resumo do livro2",autores:["Sivaldo","eunice"]},
+    {codigo:3,codEditora:2,titulo:"Livro 3",resumo:"resumo do livro3",autores:["adriana","thiago"]}
   ]
 
   constructor() {
