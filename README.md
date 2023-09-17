@@ -13,8 +13,8 @@ O aplicativo será recarregado automaticamente se você alterar algum dos arquiv
 ## Credits
 
 - [André Luíz F Souza](https://github.com/adventureandre) (Developer)
-- [ADVENTUREANDRE](https://github.com/adventureandre) (Team)
-- [All Contributors](https://github.com/) (ALL)
+- [ADVENTUREANDRE](https://www.linkedin.com/in/adventureandre) (linkendin)
+- [All Contributors](https://adventure.dev.br/) (SITE)
 
 ## License
 
